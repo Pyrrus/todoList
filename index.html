@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" title="Bootstrap">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>To-do</title>
+  </head>
+  <body>
+    <div class="row">
+      <div class="col-md-6">
+        <form id="input">
+          <div class="form-group">
+            <label for="task">Input a task!</label>
+            <input type="text" class="form-control" id="task">
+          </div>
+          <button type="submit" class="btn">Add To-do</button>
+        </form>
+        <ul id="list">
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <div class="output">
+          <form id="update">
+            <h1 id="nameHeader"></h1>
+            <input type="checkbox" id="box" name="" value="done"> Are you done
+          </form>
+        </div>
+      </div>
+  </body>
+</html>
